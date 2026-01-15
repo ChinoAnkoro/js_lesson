@@ -7,6 +7,27 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  <script>
   $(function(){
     // ここに処理を記述
+    $('#button').on('click',function(){
+      let val = $('#value').val();
+      if(val == 1)
+      {
+        $('#box').css({
+          'background-color': '#ff0000'
+        })
+      }
+      else if(val == 2)
+      {
+        $('#box').css({
+          'background-color': '#7cfc00'
+        })
+      }
+      else if(val == 3)
+      {
+        $('#box').css({
+          'background-color': '#0000ff'
+        })
+      }
+    })
   });
   </script>
 </head>
