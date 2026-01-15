@@ -40,6 +40,7 @@ body {
 /* 上の部分は気にせずここから書く */
 
 #button {
+  position: absolute;
   width: 320px;
   height: 180px;
   background-color: #fdd;
