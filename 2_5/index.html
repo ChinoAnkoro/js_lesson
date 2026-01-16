@@ -8,21 +8,16 @@
   $(function(){
     // ここに処理を記述
     $('#button').on('click',function(){
-      let val = $('#value').val();
-      if(val == 1)
-      {
+      const val = parseInt($('#value').val(), 10);
+      if(val === 1){
         $('#box').css({
           'background-color': '#ff0000'
         })
-      }
-      else if(val == 2)
-      {
+      }else if(val === 2){
         $('#box').css({
           'background-color': '#7cfc00'
         })
-      }
-      else if(val == 3)
-      {
+      }else if(val === 3){
         $('#box').css({
           'background-color': '#0000ff'
         })
